@@ -7,6 +7,14 @@ A practical Brainfuck highlight plugin for Vim.
 -   Highlight `[-]`.
 -   Highlight balanced `<`/`>`s. (partial)
 
+## install
+
+You should do like:
+
+``` vim
+    NeoBundleLazy 'kmyk/brainfuck-highlight.vim', { 'autoload' : { 'on_path' : [ '*.bf', '*.brainfuck' ] } }
+```
+
 ## please help me
 
 I want to highlight all `<`/`>`-balanced region recursively, but now I can only do some fixed `<`/`>`s.
