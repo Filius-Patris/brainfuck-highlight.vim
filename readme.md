@@ -12,7 +12,7 @@ A practical Brainfuck highlight plugin for Vim.
 You should do like:
 
 ``` vim
-    NeoBundleLazy 'kmyk/brainfuck-highlight.vim', { 'autoload' : { 'on_path' : [ '*.bf', '*.brainfuck' ] } }
+    NeoBundleLazy 'kmyk/brainfuck-highlight.vim', { 'autoload' : { 'filetypes' : 'brainfuck' } }
 ```
 
 ## please help me
