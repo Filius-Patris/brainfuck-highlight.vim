@@ -19,8 +19,8 @@ syn match lt     "<"
 syn match gt     ">"
 syn match comma  ","
 syn match dot    "\."
-syn match open   "["
-syn match close  "]"
+syn match open   "\["
+syn match close  "\]"
 
 syn match comment "[^-+<>[\].,]"
 
