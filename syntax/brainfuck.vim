@@ -26,10 +26,12 @@ syn match comment "[^-+<>[\].,]"
 
 hi plus    ctermfg=DarkRed
 hi minus   ctermfg=DarkBlue
-hi gt      ctermfg=Green
-hi lt      ctermfg=Green
-hi comma   ctermfg=Yellow
-hi dot     ctermfg=Yellow
+hi gt      ctermfg=Brown
+hi lt      ctermfg=Brown
+hi comma   ctermfg=DarkGreen
+hi dot     ctermfg=DarkGreen
+hi open    ctermfg=DarkMagenta
+hi close   ctermfg=DarkMagenta
 
 hi comment ctermfg=DarkGray
 
