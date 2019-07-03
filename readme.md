@@ -15,4 +15,4 @@ You should do like:
     NeoBundleLazy 'kmyk/brainfuck-highlight.vim', { 'autoload' : { 'filetypes' : 'brainfuck' } }
 ```
 
-(You can also just plug it into your plugin manager and `autocmd` it.
+(You can also just plug it into your plugin manager and `autocmd` it.)
